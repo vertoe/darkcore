@@ -1,31 +1,25 @@
-Bitcore
-=======
+Darkcore
+========
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore.svg?style=flat-square)](https://www.npmjs.org/package/bitcore)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcore.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore)
-
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/maraoz.svg)](https://saucelabs.com/u/maraoz)
-
-A pure and powerful JavaScript Bitcoin library.
+A pure and powerful JavaScript Darkcoin library.
 
 ## Principles
 
-Bitcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Bitcoin network allows for highly resilient bitcoin infrastructure, and the developer community needs reliable, open-source tools to implement bitcoin apps and services.
+Darkcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Darkcoin network allows for highly resilient darkcoin infrastructure, and the developer community needs reliable, open-source tools to implement darkcoin apps and services.
 
 ## Get Started
 
 ```
-npm install bitcore
+npm install darkcore
 ```
 
 Using it in Node.js:
 
 ```javascript
-var bitcore = require('bitcore');
+var darkcore = require('darkcore');
 
-assert(bitcore.Address.isValid('126vMmY1fyznpZiFTTnty3cm1Rw8wuheev'));
-var simpleTx = new bitcore.Transaction();
+assert(darkcore.Address.isValid('Xu8NczUdgqPbQi6t4hRKEQ4VY7D99v7Afx'));
+var simpleTx = new darkcore.Transaction();
 var simpleTx.from(unspent).to(address, amount);
 simpleTx.sign(privateKey);
 ```
@@ -42,17 +36,17 @@ To get community assistance and ask for help with implementation questions, plea
 
 ## Security
 
-We're using Bitcore in production, as are [many others](http://bitcore.io#projects), but please use common sense when doing anything related to finances! We take no responsibility for your implementation decisions.
+Bitpay is using Bitcore in production, as are [many others](http://bitcore.io#projects), but please use common sense when doing anything related to finances! We take no responsibility for your implementation decisions.
 
 If you find a security issue, please email security@bitpay.com.
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/bitpay/bitcore/blob/master/CONTRIBUTING.md) file. 
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/bitpay/bitcore/blob/master/CONTRIBUTING.md) file.
 
 ## Building the Browser Bundle
 
-To build bitcore full bundle for the browser:
+To build darkcore full bundle for the browser:
 
 ```sh
 gulp browser
@@ -88,6 +82,8 @@ gulp coverage
 
 ## License
 
-Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/vertoe/darkcore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
+
+Copyright 2015 Darkcoin Developers, Darkcore is no trademark at all ;-)

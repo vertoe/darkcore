@@ -1,7 +1,7 @@
 {
-  "name": "bitcore",
+  "name": "darkcore",
   "version": "0.8.6",
-  "description": "A pure and powerful JavaScript Bitcoin library.",
+  "description": "A pure and powerful JavaScript Darkcoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -54,10 +54,14 @@
     {
       "name": "Wei Lu",
       "email": "luwei.here@gmail.com"
+    },
+    {
+      "name": "Qhor Vertoe",
+      "email": "vertoe@qhor.net"
     }
   ],
   "keywords": [
-    "bitcoin",
+    "darkcoin",
     "bip32",
     "bip37",
     "bip70",
@@ -66,7 +70,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "https://github.com/vertoe/darkcore.git"
   },
   "browser": {
     "request": "browser-request"
